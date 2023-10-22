@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    width:100%;
+}
+/* for courses img and detailsx*/
+.main{
+    background-image: url( bac.avif) ;
+    height:400px;
+    width:100%;
+    color:white;
+    text-size-adjust: 14px;
+    
+  
+}
+.main h1{
+    color: rgb(255, 0, 0);
+    
+    margin-top: 5px;
+    margin-left:46%;
+}
+.main h2{
+    color: rgb(255, 0, 0);
+    margin-left:36%;
+    margin-top: 25px;
+   
+
+   
+}
+.coo{
+    color:rgb(204, 255, 0);
+    margin-top:30px;
+    margin-left:10%;
+    position: absolute;
+    left: -100%; /* Initially, the text is off-screen to the left */
+    animation: slide-from-left 2s ease forwards;
+    white-space: nowrap;
+    top:20%;
+}
+@keyframes slide-from-left {
+    to {
+        left: 0; /* Moves the text to its original position */
+    }
+}
+.c{
+    color:rgb(0, 255, 0);
+    margin-top:35px;
+    margin-left:30%;
+    position: absolute;
+    left: -100%; /* Initially, the text is off-screen to the left */
+    animation: slide-from-left 4s ease forwards;
+    white-space: nowrap;
+    top:30%;
+}
+
+.co{
+    color:rgb(0, 234, 255);
+    margin-top:40px;
+    margin-left:60%;
+    position: absolute;
+    top:45%;
+    left: -100%; /* Initially, the text is off-screen to the left */
+    animation: slide-from-left 4s ease forwards;
+    white-space: nowrap;
+}
+.img_logo{
+    align-items: center;
+    padding: 5px  10px;
+    
+}
+.img1{
+    width:350px;
+    height:200px;
+    margin-left:150px;
+}
+
+.img2{
+    width:350px;
+    height:200px;
+}
+.img3{
+    width:350px;
+    height:200px;
+   
+}
+.gov_name{
+    color: rgb(255, 0, 0);
+    
+    margin-top: 5px;
+    margin-left:40%;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        background-image: url( bacground.png);
+        color:white;
+        text-size-adjust: 14px;
+        margin-top:60px ;
+        margin-left: 40%;
+        position:center;
+        height:500px;
+        width:100%;
+    }
+    .img_logo{
+        align-items: center;
+        padding: 5px  10px;
+        
+    }
+    .img1{
+        width:350px;
+        height:200px;
+        position:center;
+        margin-left:55px;
+    }
+    
+    .img2{
+        width:350px;
+        height:200px;
+        position:center;
+        margin-left:60px;
+    }
+    .img3{
+        width:350px;
+        height:200px;
+        position:center;
+        margin-left:65px;
+       
+    }
+
+
+}
